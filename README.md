@@ -5,7 +5,7 @@ Local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
 local entityTable = Spawner.createEntity({
     CustomName = "the skull.", -- Custom name of your entity
     Model = "https://github.com/tonyBflako/vynixusdoors/blob/main/fatality.rbxm?raw=true", -- Can be GitHub file or rbxassetid
-    Speed = 30000, -- Percentage, 100 = default Rush speed
+    Speed = 3000, -- Percentage, 100 = default Rush speed
     DelayTime = 5, -- Time before starting cycles (seconds)
     HeightOffset = 0,
     CanKill = true,
